@@ -1,0 +1,63 @@
+.tasksListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header > div > span {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.header .infoCount {
+  background: var(--gray-400);
+  padding: 2px 0.5rem;
+  border-radius: 1rem;
+}
+
+.header .allTasksInfo {
+  color: var(--blue);
+}
+
+.header .doneTasksInfo {
+  color: var(--purple);
+}
+
+.noTasksInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid var(--gray-400);
+  padding: 4rem;
+}
+
+.noTasksInfo svg {
+  color: var(--gray-300);
+  margin-bottom: 1rem;
+}
+
+.noTasksInfo p {
+  line-height: 1.6;
+  color: var(--gray-300);
+}
+
+.noTasksInfo p.highlighted {
+  font-weight: bold;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
