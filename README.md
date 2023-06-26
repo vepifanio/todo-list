@@ -4,8 +4,6 @@
 
 Projeto realizado para o desafio "Fundamentos do ReactJS" para o Ignite, na trilha de ReactJS.
 
-## Screenshots
-
 <p align="center">
   <img alt="TODO" src=".github/logo.svg" width="160px" />
 </p>
