@@ -11,3 +11,11 @@ Projeto realizado para o desafio "Fundamentos do ReactJS" para o Ignite, na tril
 </p>
 
 ![TODO List Screenshot](https://github.com/vepifanio/todo-list/blob/main/.github/todo-list-01.png)
+
+## Tecnologias
+
+- React
+- Typescript
+- CSS Modules
+- Vite
+- Phosphor Icons
